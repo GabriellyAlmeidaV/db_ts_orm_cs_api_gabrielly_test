@@ -1,0 +1,19 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 4000,
+    "username": "postgres",
+    "password": "postgres",
+    "database": "db_cs_ts_orm_api_2022_gabrielly",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "src/app/models/*.ts"
+    ],
+    "migrations": [
+        "src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "src/database/migrations"
+    }
+    }
